@@ -1,0 +1,22 @@
+{
+  "name": "todo-js",
+  "version": "1.0.1",
+  "description": "A Basic Todo App Made With Vanilla JavaScript. :cyclone: :cyclone:",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishal1297/todo-Js.git"
+  },
+  "author": "Vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishal1297/todo-Js/issues"
+  },
+  "homepage": "https://Vishal1297.github.io/todo-Js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
