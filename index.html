@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Todo</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="all" />
+    <link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
 </head>
 <body>
     <div class="wrapper">
@@ -13,6 +15,7 @@
                 <div class="controls">
                     <h1>My TODO</h1>
                     <input type="text" name="todo" id="input" autofocus required><br>
+                    <p id="error"></p>
                     <button type="button" id="add">Add Todo</button>
                     <button type="button" id="remove">Remove Todos</button>
                     <button type="button" id="clear">Clear All</button>
@@ -22,8 +25,11 @@
                 <ul id="list">
                 </ul>
             </div>
+            <footer role="contentinfo" id="page_footer" class="page-footer py3">
+                Made with &#128151; by <a href="#">Vishal</a>
+            </footer>
         </div>
     </div>
+    <script src="/js/script.js"></script>
 </body>
-<script src="/js/script.js"></script>
 </html>
